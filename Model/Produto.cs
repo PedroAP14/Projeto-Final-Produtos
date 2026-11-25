@@ -13,6 +13,8 @@ namespace ProjetoFinal.Model
         public string Descricao { get; set; } = string.Empty;
         public double Preco { get; set; }
         public int Quantidade { get; set; }
+        public DateTime DataHora_Criacao { get; set; }
+        public DateTime Ultima_Atualizacao { get; set; }
         public TipoCategoriaEnum TipoCategoria { get; set; }
     }
 }
